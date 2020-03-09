@@ -1,0 +1,10 @@
+.navbar {
+    font-family: Raleway;
+    background: #3e444c;
+}
+.navbar-brand {
+    color: #fff;
+}
+.navbar-brand:hover {
+    color: #8fbeb4;
+}

@@ -1,0 +1,72 @@
+body {
+	height: 100%;
+}
+.container-fluid > .row {
+	padding: 54px 0;
+	height: 79%;
+}
+.centred {
+	width: 100%;
+	margin: 48px 0;
+	text-align: center;
+}
+.centred h2 {
+	margin-top: 0;
+	margin-bottom: 36px;
+	font-size: 24px;
+}
+.side, .main {
+	border-top: solid 1px #aaa;
+}
+.main {
+	position: relative;
+	overflow: auto;
+}
+.side {
+	padding-top: 6px;
+}
+.side div {
+	margin: 12px 0;
+}
+.list > li {
+	list-style-type: none;
+}
+.list {
+	margin: 0;
+	padding: 0;
+}
+.side p {
+	margin-left: 2px;
+}
+.spinner {
+	height: 0;
+}
+.spinner img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 10;
+	margin: -100px 0 0 -100px;
+}
+.block {
+	background: #fff;
+	opacity: 0.4;
+}
+hr {
+	border-top: solid 1px #aaa;
+}
+.content {
+	padding: 12px;
+	min-height: 440px;
+	line-height: 1.6;
+	font-family: Libre Baskerville;
+}
+:host ::ng-deep .main .content .repeated {
+	background-color: rgb(226, 158, 169) !important;
+}
+:host ::ng-deep .main .content .ly {
+	background-color: rgb(239, 195, 168) !important;
+}
+:host ::ng-deep .main .content .that {
+	background-color: rgb(114, 132, 157) !important;
+}
